@@ -16,7 +16,7 @@ import javafx.util.Duration;
 public class MemoryGame extends Application{
     //private Player player;
     private String playerName = "Jan Smit"; //tijdelijke naam
-    private int difficulty = 16; //initial difficulty
+    private int difficulty = 18; //initial difficulty
     private String cardType = "fruit"; //initial cardType
     private Label lblPlayer;
     
@@ -149,7 +149,7 @@ public class MemoryGame extends Application{
         
         rbNormal.setOnAction(e->{
             if(rbNormal.isSelected()){
-                difficulty = 16;
+                difficulty = 18;
                 reset();
             }
         }); 
