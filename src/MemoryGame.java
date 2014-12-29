@@ -28,7 +28,7 @@ public class MemoryGame extends Application{
     private RadioButton rbEasy = new RadioButton("Easy");
     private RadioButton rbNormal = new RadioButton("Normal");
     private RadioButton rbHard = new RadioButton("Hard");
-    private RadioButton rbType1 = new RadioButton("Animals");
+    private RadioButton rbType1 = new RadioButton("Fruits & Vegetables");
     private RadioButton rbType2 = new RadioButton("Figures");
     private Button btStop = new Button("Stop");
     private Button btNewGame = new Button("New Game");
