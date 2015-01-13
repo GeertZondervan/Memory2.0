@@ -177,6 +177,7 @@ public class MemoryGame extends Application{
     }
     
     public void reset(){
+        animation.stop();
         tries = 0;
         txtTries.setText(tries + "");
         seconds = 0;
@@ -316,7 +317,7 @@ public class MemoryPane extends GridPane {
 		}
 
 		private void handleMouseClick() {
-                    animation.play();
+                        animation.play();
 			if (first) {
 				if (!flipped) {
 					if (!cell[i1][j1].flipped) 
