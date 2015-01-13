@@ -14,8 +14,8 @@ import javafx.scene.image.ImageView;
 import javafx.util.Duration;
 
 public class MemoryGame extends Application{
-    //private Player player;
-    private String playerName = "Jan Smit"; //tijdelijke naam
+    Player player;
+    private String playerName = player.getName();
     private int difficulty = 18; //initial difficulty
     private String cardType = "fruit"; //initial cardType
     private Label lblPlayer;
