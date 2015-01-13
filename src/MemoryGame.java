@@ -14,12 +14,11 @@ import javafx.scene.image.ImageView;
 import javafx.util.Duration;
 
 public class MemoryGame extends Application{
-    Player player;
+    Player player = new Player("Jan Smit"); //tijdelijke player
     private String playerName = player.getName();
     private int difficulty = 18; //initial difficulty
     private String cardType = "fruit"; //initial cardType
-    private Label lblPlayer;
-    
+      
     private int seconds = 0;
     private int tries = 0;
     private Text txtTimer = new Text(seconds + ""); //initial time
